@@ -37,7 +37,7 @@
                             
                         <li class="menuI">Inscripcion
                             <ul>
-                                <li><a href="SeleccionMaterias.aspx" > Seleccion de Materias</a>
+                                <li><a href="SeleccionMaterias.aspx" >Seleccion de Materias</a>
                                 <li><a>Grupos Disponibles</a>
                                 <li><a>Recibos de Pago</a>
                                 <li><a>Solicitud de Pago</a>
