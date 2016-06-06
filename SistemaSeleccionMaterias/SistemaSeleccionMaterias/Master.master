@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="SistemaSeleccionMaterias.Master" %>
+
+<!DOCTYPE html>
+
+<link href ="StyleSheet.css" type="text/css" rel ="stylesheet" />
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>ITCV SII</title>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <img  id="banner" src="Recursos/header.png" />
+        </div>
+        
+                
+        <asp:ContentPlaceHolder id="body" runat="server">
+        </asp:ContentPlaceHolder>
+        
+        <footer>
+            <p> (c) 2016 Juan Salvador Rangel Almaguer</p>
+        </footer>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master2.master.cs" Inherits="SistemaSeleccionMaterias.Master2" %>
+
+<!DOCTYPE html>
+
+<link href ="StyleSheet.css" type="text/css" rel ="StyleSheet" />
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>ITCV SII</title>
+    <style type="text/css">
+        .auto-style1 {
+            margin-left: 5560px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <form id="form2" runat="server">
+                
+        <div class="menuContenedor">
+            <img  id="banner" src="Recursos/header.png" />
+
+            <div class="menuPanel">
+
+                <nav  class="menuI" >
+                    <ul>
+                        <li>Informacion Escolar
+                            <ul>
+                                <li>Servicio Social"
+                                <li>Recidencias
+                                <li>Boleta Calificaciones
+                                <li>Horario
+                            </ul>
+                            
+                        <li class="menuI">Inscripcion
+                            <ul>
+                                <li><a href="SeleccionMaterias.aspx" > Seleccion de Materias</a>
+                                <li><a>Grupos Disponibles</a>
+                                <li><a>Recibos de Pago</a>
+                                <li><a>Solicitud de Pago</a>
+                            </ul>
+                        
+                        <li class="menuI">Evaluacion Docente
+                            <ul>
+                                <li>Realizar Evaluacion
+                                <li>Evaluaciones Realizadas
+                            </ul>
+                        <li class="menuI" >Concepto de Cobro
+                            
+                        <li class="menuI" ><a href="Login.aspx">Cerrar Cesion</a>
+                            
+                    </ul>
+                    
+                </nav>
+
+            </div>
+                  
+        </div>
+
+        <asp:ContentPlaceHolder id="body2" runat="server">
+        </asp:ContentPlaceHolder>
+       
+        <footer>
+            <p> (c) 2016 Juan Salvador   Rangel Almaguer</p>
+        </footer>
+
+
+    </form>                                                                                                                                                                                                                                                     
+</body>
+
+</html>
