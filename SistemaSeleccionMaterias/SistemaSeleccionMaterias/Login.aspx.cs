@@ -17,7 +17,7 @@ namespace SistemaSeleccionMaterias
         protected void bn_login_Click(object sender, EventArgs e)
         {
             
-            if (tb_control.Text == "12380808" && tb_codigo.Text =="1e9b4d" && tb_pass.Text=="1234")
+            if (tb_control.Text == "12380780" && tb_codigo.Text =="1e9b4d" && tb_pass.Text=="1234")
             {
                 Server.Transfer("Inicio.aspx", true);
             }else{

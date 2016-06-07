@@ -14,9 +14,9 @@
                                 <asp:Menu ID="Menu1" runat="server" ForeColor="#1f1f1f" CssClass="menuMaterias" OnMenuItemClick="logicaFuncional">
                                     <Items>
                                         <asp:MenuItem Text="Programacion Logica y Funcional" Value="Materia 1">
-                                            <asp:MenuItem Text="1:00-2:00 Profr.: Jose Maria Morelos" Value="1"  ></asp:MenuItem>
-                                            <asp:MenuItem Text="2:00-3:00 Profr.: Miguel Hidalgo" Value="2"></asp:MenuItem>
-                                            <asp:MenuItem Text="6:00-7:00 Profr.: Porfirio Diaz" Value="3"></asp:MenuItem> 
+                                            <asp:MenuItem Text="1:00-2:00 " Value="1"  ></asp:MenuItem>
+                                            <asp:MenuItem Text="2:00-3:00 " Value="2"></asp:MenuItem>
+                                            <asp:MenuItem Text="6:00-7:00 " Value="3"></asp:MenuItem> 
                                         </asp:MenuItem>
                                     </Items>
                                 </asp:Menu>
@@ -26,9 +26,9 @@
                                     <asp:Menu ID="Menu2" runat="server" ForeColor="#1f1f1f" CssClass="menuMaterias" OnMenuItemClick="admoRedes">
                                         <Items>
                                             <asp:MenuItem Text="Administracion de Redes" Value="Materia 2">
-                                                <asp:MenuItem Text="1:00-2:00 Profr.: Jose Maria Morelos" Value="1"></asp:MenuItem>
-                                                <asp:MenuItem Text="2:00-3:00 Profr.: Miguel Hidalgo" Value="2"></asp:MenuItem>
-                                                <asp:MenuItem Text="6:00-7:00 Profr.: Porfirio Diaz" Value="3"></asp:MenuItem>
+                                                <asp:MenuItem Text="6:00-7:00 " Value="1"></asp:MenuItem>
+                                                <asp:MenuItem Text="3:00-4:00 " Value="2"></asp:MenuItem>
+                                                <asp:MenuItem Text="5:00-6:00 " Value="3"></asp:MenuItem>
                                             </asp:MenuItem>
                                         </Items>
                                     </asp:Menu>
@@ -38,9 +38,9 @@
                                 <asp:Menu ID="Menu3" runat="server" ForeColor="#1f1f1f" CssClass="menuMaterias" OnMenuItemClick="investigacion">
                                         <Items>
                                             <asp:MenuItem Text="Taller de Investigacion 2" Value="Materia 3">
-                                                <asp:MenuItem Text="1:00-2:00 Profr.: Jose Maria Morelos" Value="1"></asp:MenuItem>
-                                                <asp:MenuItem Text="2:00-3:00 Profr.: Miguel Hidalgo" Value="2"></asp:MenuItem>
-                                                <asp:MenuItem Text="6:00-7:00 Profr.: Porfirio Diaz" Value="3"></asp:MenuItem>
+                                                <asp:MenuItem Text="3:00-4:00 " Value="1"></asp:MenuItem>
+                                                <asp:MenuItem Text="2:00-3:00 " Value="2"></asp:MenuItem>
+                                                <asp:MenuItem Text="5:00-6:00 " Value="3"></asp:MenuItem>
                                             </asp:MenuItem>
                                         </Items>
                                     </asp:Menu>
@@ -50,9 +50,9 @@
                                 <asp:Menu ID="Menu4" runat="server" ForeColor="#1f1f1f" CssClass="menuMaterias" onmenuitemclic="progWeb">
                                         <Items>
                                             <asp:MenuItem Text="Programacion Web " Value="Materia 3">
-                                                <asp:MenuItem Text="1:00-2:00 Profr.: Jose Maria Morelos" Value="1" ></asp:MenuItem>
-                                                <asp:MenuItem Text="2:00-3:00 Profr.: Miguel Hidalgo" Value="2"></asp:MenuItem>
-                                                <asp:MenuItem Text="6:00-7:00 Profr.: Porfirio Diaz" Value="3"></asp:MenuItem>
+                                                <asp:MenuItem Text="4:00-5:00 Profr.: Jose Maria Morelos" Value="1" ></asp:MenuItem>
+                                                <asp:MenuItem Text="5:00-6:00 Profr.: Miguel Hidalgo" Value="2"></asp:MenuItem>
+                                                <asp:MenuItem Text="4:00-5:00 Profr.: Porfirio Diaz" Value="3"></asp:MenuItem>
                                             </asp:MenuItem>
                                         </Items>
                                     </asp:Menu>
@@ -62,9 +62,9 @@
                                 <asp:Menu ID="Menu5" runat="server" ForeColor="#1f1f1f" CssClass="menuMaterias" OnMenuItemClick="moviles1">
                                         <Items>
                                             <asp:MenuItem Text="Programacion Moviles 1" Value="Materia 3">
-                                                <asp:MenuItem Text="1:00-2:00 Profr.: Jose Maria Morelos" Value="1"></asp:MenuItem>
-                                                <asp:MenuItem Text="2:00-3:00 Profr.: Miguel Hidalgo" Value="2"></asp:MenuItem>
-                                                <asp:MenuItem Text="6:00-7:00 Profr.: Porfirio Diaz" Value="3"></asp:MenuItem>
+                                                <asp:MenuItem Text=" 4:00-5:00 " Value="1"></asp:MenuItem>
+                                                <asp:MenuItem Text=" 12:00-1:00" Value="2"></asp:MenuItem>
+                                                <asp:MenuItem Text=" 1:00-2:00" Value="3"></asp:MenuItem>
                                             </asp:MenuItem>
                                         </Items>
                                     </asp:Menu>
@@ -74,9 +74,9 @@
                                 <asp:Menu ID="Menu6" runat="server" ForeColor="#1f1f1f" CssClass="menuMaterias" Width="175px" OnMenuItemClick="multimedia">
                                         <Items>
                                             <asp:MenuItem Text="Programacion Multimedia" Value="Materia 3">
-                                                <asp:MenuItem Text="1:00-2:00 Profr.: Jose Maria Morelos" Value="1"></asp:MenuItem>
-                                                <asp:MenuItem Text="2:00-3:00 Profr.: Miguel Hidalgo" Value="2"></asp:MenuItem>
-                                                <asp:MenuItem Text="6:00-7:00 Profr.: Porfirio Diaz" Value="3"></asp:MenuItem>
+                                                <asp:MenuItem Text="5:00-6:00 " Value="1"></asp:MenuItem>
+                                                <asp:MenuItem Text="6:00-7:00 " Value="2"></asp:MenuItem>
+                                                <asp:MenuItem Text="4:00-5:00 " Value="3"></asp:MenuItem>
                                             </asp:MenuItem>
                                         </Items>
                                     </asp:Menu>
@@ -86,9 +86,9 @@
                                 <asp:Menu ID="Menu7" runat="server" ForeColor="#1f1f1f" CssClass="menuMaterias" OnMenuItemClick="sistemasProg">
                                         <Items>
                                             <asp:MenuItem Text="Sistemas Programables" Value="Materia 3">
-                                                <asp:MenuItem Text="1:00-2:00 Profr.: Jose Maria Morelos" Value="1"></asp:MenuItem>
-                                                <asp:MenuItem Text="2:00-3:00 Profr.: Miguel Hidalgo" Value="2"></asp:MenuItem>
-                                                <asp:MenuItem Text="6:00-7:00 Profr.: Porfirio Diaz" Value="3"></asp:MenuItem>
+                                                <asp:MenuItem Text="4:00-5:00 " Value="1"></asp:MenuItem>
+                                                <asp:MenuItem Text="5:00-6:00 " Value="2"></asp:MenuItem>
+                                                <asp:MenuItem Text="6:00-7:00 " Value="3"></asp:MenuItem>
                                             </asp:MenuItem>
                                         </Items>
                                     </asp:Menu>
@@ -98,9 +98,9 @@
                                 <asp:Menu ID="Menu8" runat="server" ForeColor="#990000" CssClass="menuMaterias" OnMenuItemClick="conmutacion">
                                         <Items>
                                             <asp:MenuItem Text="Conmutacion y Enrutamiento" Value="Materia 3">
-                                                <asp:MenuItem Text="1:00-2:00 Profr.: Jose Maria Morelos" Value="1"></asp:MenuItem>
-                                                <asp:MenuItem Text="2:00-3:00 Profr.: Miguel Hidalgo" Value="2"></asp:MenuItem>
-                                                <asp:MenuItem Text="6:00-7:00 Profr.: Porfirio Diaz" Value="3"></asp:MenuItem>
+                                                <asp:MenuItem Text="12:00-1:00 " Value="1"></asp:MenuItem>
+                                                <asp:MenuItem Text="2:00-3:00 " Value="2"></asp:MenuItem>
+                                                <asp:MenuItem Text="1:00-2:00 " Value="3"></asp:MenuItem>
                                             </asp:MenuItem>
                                         </Items>
                                     </asp:Menu>
@@ -211,9 +211,7 @@
             </tr>
           
         </table>
-
-        <asp:Button Text="Terminar" runat="server" style="margin-left:370px"/>
-        
+     
 
     </div>
 </asp:Content>

@@ -22,7 +22,7 @@
         </asp:ContentPlaceHolder>
         
         <footer>
-            <p> (c) 2016 Juan Salvador Rangel Almaguer</p>
+            <p> Inteligencia Artificial - SBR</p>
         </footer>
     </form>
 </body>
